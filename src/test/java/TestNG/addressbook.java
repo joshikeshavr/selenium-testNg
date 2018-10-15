@@ -14,7 +14,7 @@ public class addressbook {
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		  driver = new ChromeDriver();
-		  driver.get("http://35.231.231.15:32768/addressbook/");
+		  driver.get("http://35.154.250.255:8080/addressbook/");
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
